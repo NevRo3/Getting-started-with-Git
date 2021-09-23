@@ -1,0 +1,32 @@
+ 1001  sudo apt-get install git
+ 1002* 
+ 1003  git --global username "Maxim Shabanov"
+ 1004  git config --global username "Maxim Shabanov"
+ 1005  git config --global user.name "Maxim Shabanov"
+ 1006  git config --global user.email "nightstalker1973@gmail.com"
+ 1007  git config --list --show-origin
+ 1008  ls -la
+ 1009  mkdir testgit
+ 1010  cd testgit
+ 1011  git init
+ 1012  touch test.txt
+ 1013  /touch test.txt
+ 1014  git status
+ 1015  ls
+ 1016  git commit -m "my first commit
+
+ 1017  git commit -m "my first commit"
+ 1018  git add test.txt
+ 1019  git status
+ 1020  git log
+ 1021  git commit -m "my first commit"
+ 1022  git log
+ 1023  nano test.txt
+ 1024  git status
+ 1025  git log
+ 1026  git add test.txt
+ 1027  git status
+ 1028  git commit -m "my second commit"
+ 1029  git status
+ 1030  git log
+ 1031  history > hist.txt
